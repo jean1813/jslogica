@@ -2,7 +2,7 @@ const prompt = require('prompt-sync')()
 
 var salario, tempoTrabalho, resultado, continuar
 
-continuar = true
+continuar = true  // valor booleano
 
 while(continuar){
     salario = parseFloat(prompt('Informe o salario: '))

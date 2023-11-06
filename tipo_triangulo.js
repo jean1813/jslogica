@@ -1,7 +1,6 @@
 const prompt = require('prompt-sync')()
 
- 
-var a = parseInt(prompt('Valor do lado 1:'))
+a = parseInt(prompt('Valor do lado 1:'))
 b = parseInt(prompt('Valor do lado 2:'))
 c = parseInt(prompt('Valor do lado 3:'))
 
