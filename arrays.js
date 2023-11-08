@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')()
+
 let lista = ['Pera', 'Uva', 'Jaca', 'Mamão', 'Melancia', 'Abacate']
 
 let cont = 0
