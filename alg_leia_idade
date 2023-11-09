@@ -1,0 +1,14 @@
+const prompt = require('prompt-sync')()
+
+let idadeEmAnos = parseInt(prompt('Qual sua idad? '))
+//let idadeMeses = parseInt(prompt('Qual sua idade em meses? '))
+//let idadeEmdias = parseInt(prompt('Qual sua idade em dias? '))
+idade = 2023 - 1974
+idadeEmMeses = (49 * 12) /30
+if (idadeEmAnos) {
+    console.log(`Sua idade em anos sera: ${idade}`)
+    console.log(`Sua idade em meses sera: ${idadeEmMeses.toFixed(2)}`)
+}
+
+
+
